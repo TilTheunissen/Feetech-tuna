@@ -1,0 +1,17 @@
+[project]
+name = "feetech-tuna"
+version = "0.1.0"
+description = "Cross Platform Feetech Servo Tuner Tool"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "future>=1.0.0",
+    "iso8601>=2.1.0",
+    "pyserial>=3.5",
+    "PyYAML>=6.0.1",
+    "prompt_toolkit>=3.0.43",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
